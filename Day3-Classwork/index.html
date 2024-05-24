@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3-Classwork</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form action="">
+            <label for="f-name">Firstname:</label>
+            <input type="text" name="f-name" id="f-name" placeholder="Enter your F-Name">
+            <br>
+            <br>
+            <label for="m-name">Middlename:</label>
+            <input type="text" name="m-name" id="m-name" placeholder="Enter your M-Name">
+            <br><br>
+            <label for="l-name">Lastname:</label>
+            <input type="text" name="l-name" id="l-name" placeholder="Enter your L-Name">
+            <br><br>
+            <label for="course-name">Course :</label>
+            <select name="course-Name" id="course-Name">
+                <option value="">Course</option>
+                <option value="">BCA</option>
+                <option value="">BBA</option>
+                <option value="">B.Tech</option>
+                <option value="">MBA</option>
+                <option value="">MCA</option>
+                <option value="">M.Tech</option>
+            </select>
+            <br><br>
+            <label for="Gender">Gender :</label> <br>
+            <input type="radio" name="Gender  " id="Gen-1"> Male
+            <br>
+            <input type="radio" name="Gender  " id="Gen-2"> Female
+            <br>
+            <input type="radio" name="Gender  " id="Gen-3"> Other
+            <br><br>
+            
+            <label for="dob">DOB</label>
+            <input type="datetime-local" name="dob" id="dob">
+            <br>
+            <label for="phone-num">Phone :</label>
+            <input type="tel" name="phone-num" value="+91" size="2" id="country-code" disabled>
+            <input type="tel" name="phone-num" maxlength="10" size="10" id="phone-num">
+            <br><br>
+            <label for="address">Address :</label><br>
+            <textarea name="address" id="address" cols="80" rows="5" value="address"></textarea>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <br>
+            <br><br>
+            <label for="confirm-password">Re-type password:</label>
+            <input type="password" name="confirm-password" id="confirm-password">
+            <br><br>
+            <input type="checkbox" name="agree-term&condition" id="agree-term&condition">Agree to terms and conditions
+            <br><br>
+            <label for="choose-file">Choose File</label>
+            <input type="file" name="choose-file" id="choose-file">
+            <br><br>
+            <label for="choose-color">Choose Color</label>
+            <input type="color" name="choose-color" id="choose-color">
+            <br><br>
+            <input type="reset" name="reset" id="reset">
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </fieldset>
+</body>
+</html>
